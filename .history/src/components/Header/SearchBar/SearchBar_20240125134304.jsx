@@ -1,0 +1,28 @@
+import React, { useState } from "react";
+import { FaSearchDollar } from "react-icons/fa";
+
+import "./SearchBar.css";
+
+function SearchBar() {
+
+  const [searchValue, setSearchValue] = useState("");
+
+  return (
+    <form className="search-bar">
+      <input 
+        type="search"
+        value={} 
+        placeholder="Buscar Produtos..." 
+        className="search__input" 
+        required 
+        onChange={({ target }) => setSearchValue(target.value) }
+      />
+      { searchValue }
+      <button type="submit" className="search__button">
+        <FaSearchDollar />
+      </button>
+    </form>
+  );
+}
+
+export default SearchBar;

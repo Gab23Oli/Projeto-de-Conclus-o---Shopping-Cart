@@ -1,0 +1,6 @@
+.cart-item {
+  align-items: flex-start;
+  border-bottom: 1p solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
