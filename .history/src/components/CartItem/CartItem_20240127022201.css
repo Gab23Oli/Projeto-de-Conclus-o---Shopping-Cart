@@ -14,14 +14,13 @@
 .cart-item-title {
   font-size: 0.85rem;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.5);
   margin-bottom: 8px;
 }
 
 .cart-item-price {
   font-size: 25px;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.5);
 }
 
 .cart-item-content {

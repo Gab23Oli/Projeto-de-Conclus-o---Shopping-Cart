@@ -1,7 +1,7 @@
 .cart {
   width: 100%;
   max-width: 330px;
-  background-color: #222223;
+  background-color: #313132;
   height: 100vh;
   position: fixed;
   top:0;
@@ -23,7 +23,6 @@
   font-size: 1.8rem;
   padding: 35px 0 15px;
   border-top: 1px solid #ddd;
-  color: white;
 }
 
 .cart-items .cart-item:last-child {
